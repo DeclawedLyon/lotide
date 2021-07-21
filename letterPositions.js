@@ -13,26 +13,3 @@ const letterPositions = function(sentence) {
   console.log(results);
 }
 
-const eqArrays = function(arr1, arr2) {
-  //console.log(arr1, arr2)
-  let i = 0;
-  let truth = true;
-  if (arr1.length === arr2.length) {
-    while (i < arr1.length){
-      if (arr1[i] === arr2[i]) {
-        truth = true;
-      } else if (arr1[i] !== arr2[i]){
-        truth = false;
-      }
-      i++
-    }
-  }
-  return truth;
-}
-
-const assertArraysEqual = function(firstArray, secondArray) {
-  return eqArrays(firstArray, secondArray);
-}
-
-
-assertArraysEqual(letterPositions("hello"), [1]);
