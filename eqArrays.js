@@ -17,14 +17,17 @@ const eqArrays = function(arr1, arr2) {
   //console.log(arr1, arr2)
   let i = 0;
   let truth = true;
-  while (i < arr1.length){
-    if (assertEqual(arr1[i], arr2[i])) {
-      truth = true;
-    } else if (!assertEqual(arr1[i], arr2[i])){
-      truth = false;
+  if (arr1.length === arr2.length) {
+    while (i < arr1.length){
+      if (arr1[i] === arr2[i]) {
+        truth = true;
+      } else if (arr1[i] !== arr2[i]){
+        truth = false;
+      }
+      i++
     }
-    i++
   }
+  
   console.log(truth);
   
 }
