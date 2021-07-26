@@ -51,3 +51,5 @@ assertArraysEqual(results2, [ 'I\'ve', 'been', 'to', 'Hollywood' ]);
 // 'expected: ' + [ 1, 2, 5, 7, 2 ]
 //'---'
 // 'expected: ' + [ 'I\'ve', 'been', 'to', 'Hollywood' ]
+
+module.exports = takeUntil;

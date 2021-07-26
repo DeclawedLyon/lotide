@@ -13,3 +13,4 @@ const letterPositions = function(sentence) {
   console.log(results);
 }
 
+module.exports = letterPositions;

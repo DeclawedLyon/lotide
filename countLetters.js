@@ -32,3 +32,4 @@ const countLetters = function(sentence) {
   console.log(result);
 };
 
+module.exports = countLetters;

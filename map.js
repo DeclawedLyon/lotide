@@ -47,3 +47,5 @@ const map = function(array, callback) {
 // console.log('filter for tom: ', results3);
 // assertArraysEqual(results3, [false, false, false, false, true]);
 // console.log('-----NEXT TEST-----');
+
+module.exports = map

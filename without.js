@@ -42,3 +42,5 @@ const without = function(source, toRemove) {
 // console.log(words);
 //console.log(without([1, 2, 3], [1]) /* => [2, 3] */ );
 //console.log(wls
+
+module.exports = without;

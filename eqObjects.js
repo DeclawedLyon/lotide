@@ -70,3 +70,5 @@ const cd2 = { c: "1", d: ["2", 3, 4] };
 eqObjects(cd, cd2); // => false
 
 //console.log(eqArrays(cd, cd2));
+
+module.exports = eqObjects;
