@@ -9,8 +9,8 @@ const tail = function(arr) {
   for (let i = 1; i < arr.length; i++) {
     newArray.push(arr[i]);
   }
+  newArray = newArray.join(',');
   return newArray;
 };
 
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result, ["Lighthouse", "Labs"]);
+module.exports = tail;
